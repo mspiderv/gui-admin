@@ -7,12 +7,18 @@ use Vitlabs\GUICore\Contracts\Components\AttributesElement;
 
 interface TableRowContract extends ElementContract, AttributesElement {
 
-	public function __construct($data);
+	public function __construct($data, TableContract $table);
+
+	// Get or set
+	public function id($id = null);
 
 	// Get or set
 	public function level($level = null);
 
 	// Get or set
 	public function sortgroup($sortgroup = null);
+
+	// Get or set
+	public function model($model = null);
 	
 }

@@ -16,6 +16,9 @@ interface TableContract extends Countable, ElementContract, AttributesElement, D
 	// Get or set
 	public function sortable($sortable = null);
 
+	// Get or set
+	public function paging($paging = null);
+
 	// Columns
 
 	public function getColumns();
