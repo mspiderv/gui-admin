@@ -21,5 +21,6 @@ interface GeneratorContract {
     public function callout($heading, $state = 'info', $content = null);
     public function container(array $container = []);
     public function progressBar($value = 0, $state = 'default', $vertical = false);
+    public function HTML($content = '');
 
 }
