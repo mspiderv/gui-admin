@@ -22,5 +22,6 @@ interface GeneratorContract {
     public function container(array $container = []);
     public function progressBar($value = 0, $state = 'default', $vertical = false);
     public function HTML($content = '');
+    public function button($content = '', $state = 'default', $tag = 'a', $dropdown = false, $size = '');
 
 }
