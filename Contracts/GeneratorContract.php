@@ -26,5 +26,6 @@ interface GeneratorContract {
     public function buttonApplication($content = '', $tag = 'a', $icon = '', $badge = '', $badgeBg = 'default');
     public function buttonGroup(array $container = []);
     public function buttonDropdown($state = 'default', $size = '');
+    public function dropdown(array $container = []);
 
 }
