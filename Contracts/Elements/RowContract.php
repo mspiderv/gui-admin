@@ -8,8 +8,6 @@ use Vitlabs\GUICore\Contracts\Components\ContainerElement;
 
 interface RowContract extends ElementContract, AttributesElement, ContainerElement {
 
-	const VARIABLES = '';
-
 	const POSITIONS = 'default';
 
     // Variable-length argument list

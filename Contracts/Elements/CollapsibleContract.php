@@ -5,8 +5,9 @@ namespace Vitlabs\GUIAdmin\Contracts\Elements;
 use Vitlabs\GUICore\Contracts\Elements\ElementContract;
 use Vitlabs\GUICore\Contracts\Components\AttributesElement;
 use Vitlabs\GUICore\Contracts\Components\ContainerElement;
+use Vitlabs\GUICore\Contracts\Components\DataElement;
 
-interface CollapsibleContract extends ElementContract, AttributesElement, ContainerElement {
+interface CollapsibleContract extends ElementContract, AttributesElement, ContainerElement, DataElement {
 
 	const VARIABLES = 'title|state=default|collapsibleId';
 

@@ -15,4 +15,7 @@ interface AccordionContract extends ElementContract, AttributesElement, DataElem
 
 	public function __construct(array $data = []);
 
+    // Get or set
+    public function active($active = null);
+
 }

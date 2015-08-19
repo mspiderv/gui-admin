@@ -531,7 +531,7 @@
 			<variable required="false" default="">percents</variable>
 		</variables>
 		<methods>
-			<method access="public">__construct($content = '', $href = '#', $attributes = [])</method>
+			<method access="public">__construct()</method>
 		</methods>
 	</element>
 
