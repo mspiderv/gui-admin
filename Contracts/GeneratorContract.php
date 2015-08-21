@@ -27,7 +27,8 @@ interface GeneratorContract {
     public function buttonGroup(array $container = []);
     public function buttonDropdown($state = 'default', $size = '');
     public function dropdown(array $container = []);
-    public function dropdownDivider();
     public function dropdownItem($content = '', $href = '#', $attributes = []);
+    public function dropdownDivider();
+    public function tagContainer($tag = 'div', $class = null);
 
 }
