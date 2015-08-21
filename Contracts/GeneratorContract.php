@@ -30,5 +30,6 @@ interface GeneratorContract {
     public function dropdownItem($content = '', $href = '#', $attributes = []);
     public function dropdownDivider();
     public function tagContainer($tag = 'div', $class = null);
+    public function infoWidget($heading = '', $content = '', $icon = '', $bg = '');
 
 }
