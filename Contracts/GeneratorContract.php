@@ -39,5 +39,8 @@ interface GeneratorContract {
     function password();
     function file();
     function checkbox();
+    function textarea();
+    function radio();
+    function select();
 
 }
