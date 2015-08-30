@@ -8,12 +8,15 @@ use Vitlabs\GUICore\Contracts\Components\ContainerElement;
 
 interface WindowContract extends ElementContract, DataElement, ContainerElement {
 
-	const VARIABLES = 'breadcrumbs=[]|title|logo_text|mini_logo_text=$logo_text|logo_href|heading|heading_small';
+	const VARIABLES = 'breadcrumbs=[]|title|logo_text|mini_logo_text=$logo_text|logo_href|heading|heading_small|webURL|logoutURL';
 
 	const POSITIONS = 'content|footer';
 
-	public function __construct(array $data = []);
+	function __construct(array $data = []);
 
-	public function addBreadcrumb($title, $url = null);
+	function addBreadcrumb($title, $url = null);
 
+    function getSidebarMenu();
+
+    function getNavbarMenu();
 }
