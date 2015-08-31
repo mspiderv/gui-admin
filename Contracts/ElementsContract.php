@@ -2,7 +2,7 @@
 
 namespace Vitlabs\GUIAdmin\Contracts;
 
-interface GeneratorContract {
+interface ElementsContract {
 
 	function window();
 	function icon($icon = '');
@@ -32,15 +32,5 @@ interface GeneratorContract {
     function dropdownDivider();
     function tagContainer($tag = 'div', $class = null);
     function infoWidget($heading = '', $content = '', $icon = '', $bg = '');
-    function submit($value = '', $state = 'primary', $dropdown = false, $size = '', $attributes = []);
-    function form(array $form = []);
-    function input();
-    function email();
-    function password();
-    function file();
-    function checkbox();
-    function textarea();
-    function radio();
-    function select();
 
 }
