@@ -12,7 +12,7 @@ interface FormContract {
     function file();
     function checkbox();
     function textarea();
-    function editor();
+    function editor($implementation = null);
     function radio();
     function select();
 

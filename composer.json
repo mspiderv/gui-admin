@@ -1,6 +1,6 @@
 {
     "name": "vitlabs/gui-admin",
-    "description": "This package contains contracts for administration GUI generation.",
+    "description": "Contracts for administration GUI generation.",
     "authors": [
 		{
 			"name": "Matej Vitaz",
