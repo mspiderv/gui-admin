@@ -8,7 +8,7 @@
 		}
 	],
     "require": {
-        "vitlabs/gui-core": "*"
+        "vitlabs/gui-core": "@dev"
     },
     "autoload": {
         "psr-4": {
