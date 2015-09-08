@@ -9,12 +9,15 @@ use Vitlabs\GUICore\Contracts\Components\DataElement;
 
 interface TableContract extends Countable, ElementContract, AttributesElement, DataElement {
 
-	const VARIABLES = 'sortable=false';
+	const VARIABLES = 'sortable=false|datatable=true';
 
 	public function __construct();
 
 	// Get or set
-	public function sortable($sortable = null);
+    public function sortable($sortable = null);
+
+    // Get or set
+    public function datatable($datatable = null);
 
 	// Get or set
 	public function paging($paging = null);
