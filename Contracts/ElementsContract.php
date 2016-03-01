@@ -8,7 +8,7 @@ interface ElementsContract {
 	function icon($icon = '');
 	function tag($tag, $content = '', $paired = true, $attributes = []);
 	function accordion(array $data = []);
-	function box($title, $state = 'default', $icon = '');
+	function box($title = '', $state = 'default', $icon = '');
 	function table();
 	function tableRow($data);
     function login(array $data = []);

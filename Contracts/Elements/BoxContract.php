@@ -13,6 +13,6 @@ interface BoxContract extends ElementContract, AttributesElement, DataElement, C
 	
 	const POSITIONS = 'body|footer';
 
-	public function __construct($title, $state = 'default', $icon = '');
+	public function __construct($title = '', $state = 'default', $icon = '');
 
 }
